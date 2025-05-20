@@ -200,12 +200,5 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-### EMAIL SENDING (create app from google acoount)
-# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-# EMAIL_HOST = 'smtp.gmail.com'           # or your email provider
-# EMAIL_PORT = 587
-# EMAIL_USE_TLS = True
-# EMAIL_HOST_USER = 'samota.shankar.2803@gmail.com'
-# EMAIL_HOST_PASSWORD = 'pmgg tjgc vjse ngip'
-# DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
+
 
