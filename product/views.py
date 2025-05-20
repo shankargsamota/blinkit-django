@@ -7,7 +7,7 @@ from rest_framework.response import Response
 from django.core.cache import cache
 from django_filters.rest_framework import DjangoFilterBackend
 from core.pagination import CustomPagination
-from product.mixins import CustomCacheResponseMixin
+# from product.mixins import CustomCacheResponseMixin
 
 
 class IsVendorOwner(permissions.BasePermission):
