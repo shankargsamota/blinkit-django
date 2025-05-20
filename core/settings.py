@@ -148,10 +148,10 @@ WSGI_APPLICATION = 'core.wsgi.application'
 DATABASES = {
    'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'Blinkit',     # Replace with your DB name
+        'NAME': 'blinkit-db',     # Replace with your DB name
         'USER': 'postgres',         # Replace with your DB user
         'PASSWORD': 'asdfghjkl', # Replace with your DB password
-        'HOST': 'blinkit.cfiuguscmgpx.eu-north-1.rds.amazonaws.com',      # Change if using a remote DB
+        'HOST': 'blinkit-db.cfiuguscmgpx.eu-north-1.rds.amazonaws.com',      # Change if using a remote DB
         'PORT': '5432',           # Default PostgreSQL port
     }
 }
