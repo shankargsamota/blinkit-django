@@ -31,6 +31,7 @@ INSTALLED_APPS = [
     'django_celery_beat',
     'django_extensions',
     'rest_framework',
+    'rest_framework_extensions'
     'rest_framework_simplejwt',
     'account',
     'vendor',
