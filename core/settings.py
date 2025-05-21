@@ -148,7 +148,7 @@ WSGI_APPLICATION = 'core.wsgi.application'
 DATABASES = {
    'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'django-db',     # Replace with your DB name
+        'NAME': 'blinkit2',     # Replace with your DB name
         'USER': 'postgres',         # Replace with your DB user
         'PASSWORD': 'asdfghjkl;', # Replace with your DB password
         'HOST': 'django-db.cfiuguscmgpx.eu-north-1.rds.amazonaws.com',      # Change if using a remote DB
