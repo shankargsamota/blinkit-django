@@ -2061,3 +2061,8 @@ Request received: GET /admin/django_celery_beat/periodictask/add/ at 2025-04-09 
 Response status: 200 for GET /admin/django_celery_beat/periodictask/add/ in 0.11s
 Request received: GET /admin/django_celery_beat/crontabschedule/add/ at 2025-04-09 16:55:52.775893
 Response status: 200 for GET /admin/django_celery_beat/crontabschedule/add/ in 0.15s
+Watching for file changes with StatReloader
+C:\Users\Shankar.Samota\Desktop\Django_React\BlinkIt_App\backend\core\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Request received: POST /user/login at 2025-05-21 15:12:00.781923
+Response status: 200 for POST /user/login in 0.66s

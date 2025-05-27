@@ -11,12 +11,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-l=)06chwvew1#v%)ev76&=t&pkk1lf0vlfyxk6_xttq%uk6l=1'
-STATIC_URL='static/'
-STATIC_ROOT= os.path.join(BASE_DIR,'staticfiles')
+# STATIC_URL='static/'
+# STATIC_ROOT= os.path.join(BASE_DIR,'staticfiles')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['51.20.84.10' , 'localhost']
+# ALLOWED_HOSTS = ['51.20.84.10' , 'localhost']
 
 
 # Application definition
@@ -150,10 +150,10 @@ WSGI_APPLICATION = 'core.wsgi.application'
 DATABASES = {
    'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'blinkit2',     # Replace with your DB name
+        'NAME': 'Blinkit',     # Replace with your DB name
         'USER': 'postgres',         # Replace with your DB user
-        'PASSWORD': 'asdfghjkl;', # Replace with your DB password
-        'HOST': 'django-db.cfiuguscmgpx.eu-north-1.rds.amazonaws.com',      # Change if using a remote DB
+        'PASSWORD': 'root', # Replace with your DB password
+        'HOST': 'localhost',      # Change if using a remote DB
         'PORT': '5432',           # Default PostgreSQL port
     }
 }
